@@ -41,5 +41,5 @@ Your financial data stays in your hands.
 ## Learn more
 
 - [Privacy Policy](privacy-policy.md)
-- [Support](support.md)
 - [Request a Feature](request-a-feature.md)
+- [Support](support.md)
