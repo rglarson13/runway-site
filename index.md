@@ -42,4 +42,4 @@ Your financial data stays in your hands.
 
 - [Privacy Policy](privacy-policy.md)
 - [Request a Feature](request-a-feature.md)
-- [Support](support.md)
+- [Get Help](get-help.md)
