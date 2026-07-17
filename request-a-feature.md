@@ -8,7 +8,7 @@ I'd love to hear what would make Runway more useful for you. Whether it's a new 
 
 Runway is intentionally built around a few principles:
 
-- No required accounts
+- No required accounts, no cloud sync, no central servers, etc
 - No selling or sharing of your financial data
 - No unnecessary complexity
 - Cash-flow forecasting over traditional budgeting
