@@ -1,3 +1,10 @@
 theme: minima
 title: Runway
 description: Cash-flow forecasting without accounts, cloud sync, or bank connections.
+
+header_pages:
+  - index.md
+  - privacy-policy.md
+  - get-help.md
+  - request-a-feature.md
+  - support-runway.md
