@@ -1,4 +1,6 @@
-# Support Runway
+---
+title: Support Runway
+---
 
 Runway is built independently, without ads, tracking, or selling your financial data.
 
