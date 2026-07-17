@@ -1,4 +1,6 @@
-# About Runway
+---
+title: About Runway
+---
 
 ## Know your cash flow before it becomes a problem.
 
