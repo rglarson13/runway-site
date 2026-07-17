@@ -6,17 +6,23 @@ Runway answers one question:
 
 > "What does my checking account look like over the next five weeks?"
 
-Every paycheck, bill, and credit card payment projected onto a calendar -- so surprises stop being surprises.
+Every paycheck, bill, and credit card payment is projected onto a calendar -- so surprises stop being surprises.
 
 ## Built differently
 
 Runway is a cash-flow forecasting app, not a budgeting app.
 
-No accounts.
-No bank connections.
-No cloud sync.
+No transactions to categorize.
+No spending goals to maintain.
+No analyzing your credit card statement.
 
-Your financial data stays on your device.
+Runway is also privacy-first.
+
+No account required.
+No cloud sync.
+No collecting your personal information.
+
+Your financial data stays in your hands.
 
 ## Features
 
@@ -25,7 +31,7 @@ Your financial data stays on your device.
 - Predict upcoming credit card payments
 - Forecast bills, transfers, and paychecks
 - Set account safety buffers
-- Get home-screen widgets
+- Home-screen widgets for at-a-glace cash flow
 - Export your data whenever you want
 
 ## Get Runway
