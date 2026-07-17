@@ -50,4 +50,4 @@ If this policy changes, the new version will be published at the same location a
 
 ## Contact
 
-Questions about this policy: RunwayFinanceApp@gmail.com
+Questions about this policy: [RunwayFinanceApp@gmail.com](mailto:RunwayFinanceApp@gmail.com)
