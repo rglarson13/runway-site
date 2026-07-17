@@ -30,6 +30,6 @@ The most helpful requests include:
 
 Email your idea to:
 
-RunwayFinanceApp@gmail.com
+[RunwayFinanceApp@gmail.com](mailto:RunwayFinanceApp@gmail.com)
 
 Thanks for helping make Runway better.
