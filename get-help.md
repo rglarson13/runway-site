@@ -6,7 +6,7 @@ title: Get Help
 Need help with Runway?
 
 Email:
-RunwayFinanceApp@gmail.com
+[RunwayFinanceApp@gmail.com](mailto:RunwayFinanceApp@gmail.com)
 
 When reporting a bug, please include:
 
