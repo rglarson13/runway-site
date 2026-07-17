@@ -43,3 +43,4 @@ Your financial data stays in your hands.
 - [Privacy Policy](privacy-policy.md)
 - [Request a Feature](request-a-feature.md)
 - [Get Help](get-help.md)
+- [Support Runway](support-runway.md)
