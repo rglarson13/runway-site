@@ -1,4 +1,4 @@
-# Runway Privacy Policy
+# Privacy Policy
 
 **Effective date: July 17, 2026**
 
