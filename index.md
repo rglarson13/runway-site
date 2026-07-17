@@ -6,7 +6,7 @@ Runway answers one question:
 
 > "What does my checking account look like over the next five weeks?"
 
-Every paycheck, bill, and credit card payment projected onto a calendar — so surprises stop being surprises.
+Every paycheck, bill, and credit card payment projected onto a calendar -- so surprises stop being surprises.
 
 ## Built differently
 
