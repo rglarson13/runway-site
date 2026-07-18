@@ -39,7 +39,7 @@ Your financial data stays in your hands.
 
 ## Get Runway
 
-[Available on Google Play]
+[Available on Google Play](https://play.google.com/store/apps/details?id=com.bob.cashflow)
 
 ## Learn more
 
