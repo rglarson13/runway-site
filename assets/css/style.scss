@@ -9,11 +9,46 @@ body {
 }
 
 .site-title,
-.site-nav,
+.site-nav .page-link,
 a {
   color: #7ee787;
 }
 
+// minima gives the nav its own background (light, for the mobile dropdown)
+// and its own text color for .page-link, both with enough specificity to
+// beat the overrides above -- so they need to be set explicitly here too.
+.site-nav {
+  background-color: #111;
+}
+
+.site-nav .menu-icon > svg {
+  fill: #7ee787;
+}
+
 .page-content {
   color: #ddd;
+}
+
+.hero-screenshot {
+  display: block;
+  max-width: 280px;
+  width: 100%;
+  margin: 30px auto;
+  border-radius: 12px;
+  border: 1px solid #333;
+}
+
+.screenshot-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin: 30px 0;
+}
+
+.screenshot-gallery img {
+  max-width: 240px;
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid #333;
 }

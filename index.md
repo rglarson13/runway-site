@@ -11,6 +11,12 @@ Runway answers one question:
 
 Every paycheck, bill, and credit card payment is projected onto a calendar -- so surprises stop being surprises.
 
+<img
+  src="/assets/images/screenshots/ss1.png"
+  alt="Runway dashboard showing a 35-day cash flow calendar with a shortfall warning and a safe-to-spend amount"
+  class="hero-screenshot"
+>
+
 ## Built differently
 
 Runway is a cash-flow forecasting app, not a budgeting app.
@@ -34,8 +40,13 @@ Your financial data stays in your hands.
 - Predict upcoming credit card payments
 - Forecast bills, transfers, and paychecks
 - Set account safety buffers
-- Home-screen widgets for at-a-glace cash flow
+- Home-screen widgets for at-a-glance cash flow
 - Export your data whenever you want
+
+<div class="screenshot-gallery">
+  <img src="/assets/images/screenshots/ss4.png" alt="Runway home-screen widget showing today's safe-to-spend amount">
+  <img src="/assets/images/screenshots/ss3.png" alt="Runway settings screen with light/dark mode, text size, and colorblind-friendly color options">
+</div>
 
 ## Get Runway
 

@@ -1,2 +1,6 @@
 # OS junk
 .DS_Store
+
+# AI
+.claude/
+AGENTS.md
