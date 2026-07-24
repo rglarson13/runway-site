@@ -3,11 +3,10 @@ layout: page
 title: About the Developer
 ---
 
-## About the Developer
-
 <div>
   <img src="{{ '/assets/images/bob.jpg' | relative_url }}" alt="Bob Larson" width="240" style="border-radius: 50%;">
 </div>
+</br>
 
 Hi, I'm Bob Larson, a software developer and data nerd from Minnesota.
 
