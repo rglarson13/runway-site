@@ -1,4 +1,4 @@
-theme: minima
+theme: slate
 title: Runway
 description: Cash-flow forecasting without accounts, cloud sync, or bank connections.
 
@@ -7,3 +7,4 @@ header_pages:
   - get-help.md
   - request-a-feature.md
   - support-runway.md
+  - about-dev.md
