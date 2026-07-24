@@ -3,30 +3,15 @@
 
 @import "minima";
 
-body {
-  background-color: #111;
-  color: #eee;
-}
+// Light mode uses minima's own default palette (already accessible) with
+// the brand green swapped in for links/nav. Dark mode is applied
+// automatically for visitors whose system is set to dark -- there's no
+// manual toggle, this just follows prefers-color-scheme.
 
 .site-title,
 .site-nav .page-link,
 a {
-  color: #7ee787;
-}
-
-// minima gives the nav its own background (light, for the mobile dropdown)
-// and its own text color for .page-link, both with enough specificity to
-// beat the overrides above -- so they need to be set explicitly here too.
-.site-nav {
-  background-color: #111;
-}
-
-.site-nav .menu-icon > svg {
-  fill: #7ee787;
-}
-
-.page-content {
-  color: #ddd;
+  color: #166534;
 }
 
 .hero-screenshot {
@@ -35,7 +20,7 @@ a {
   width: 100%;
   margin: 30px auto;
   border-radius: 12px;
-  border: 1px solid #333;
+  border: 1px solid #ddd;
 }
 
 .screenshot-gallery {
@@ -50,5 +35,38 @@ a {
   max-width: 240px;
   width: 100%;
   border-radius: 12px;
-  border: 1px solid #333;
+  border: 1px solid #ddd;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #111;
+    color: #eee;
+  }
+
+  .site-title,
+  .site-nav .page-link,
+  a {
+    color: #7ee787;
+  }
+
+  // minima gives the nav its own background (light, for the mobile dropdown)
+  // and its own text color for .page-link, both with enough specificity to
+  // beat the overrides above -- so they need to be set explicitly here too.
+  .site-nav {
+    background-color: #111;
+  }
+
+  .site-nav .menu-icon > svg {
+    fill: #7ee787;
+  }
+
+  .page-content {
+    color: #ddd;
+  }
+
+  .hero-screenshot,
+  .screenshot-gallery img {
+    border-color: #333;
+  }
 }
