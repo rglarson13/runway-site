@@ -41,9 +41,36 @@ Your financial data stays in your hands.
 - Home-screen widgets for at-a-glance cash flow
 - Export your data whenever you want
 
-<div class="screenshot-gallery">
-  <img src="{{ '/assets/images/screenshots/ss4.png' | relative_url }}" alt="Runway home-screen widget showing today's safe-to-spend amount">
-  <img src="{{ '/assets/images/screenshots/ss3.png' | relative_url }}" alt="Runway settings screen with light/dark mode, text size, and colorblind-friendly color options">
+## See it in action
+
+<div class="feature-block" markdown="1">
+
+### A day-by-day breakdown
+
+Prefer a list to a calendar? Switch to the Runway view to see every projected balance, bill, and paycheck over the next 35 days, one day at a time.
+
+<img src="{{ '/assets/images/screenshots/ss2.png' | relative_url }}" alt="Runway list view showing daily projected balances, an upcoming rent payment, and a paycheck">
+
+</div>
+
+<div class="feature-block" markdown="1">
+
+### Your balance, without opening the app
+
+A home-screen widget shows what's safe to spend today at a glance.
+
+<img src="{{ '/assets/images/screenshots/ss4.png' | relative_url }}" alt="Android home screen with a Runway widget showing today's safe-to-spend amount">
+
+</div>
+
+<div class="feature-block" markdown="1">
+
+### Make it yours
+
+Switch between light and dark mode, adjust text size, and turn on a colorblind-friendly palette that swaps the red/green shortfall colors for blue/orange.
+
+<img src="{{ '/assets/images/screenshots/ss3.png' | relative_url }}" alt="Runway settings screen showing light and dark mode, text size, and colorblind-friendly color options">
+
 </div>
 
 ## Get Runway

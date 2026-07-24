@@ -16,24 +16,30 @@ a {
 
 .hero-screenshot {
   display: block;
-  max-width: 280px;
+  max-width: 320px;
   width: 100%;
+  height: auto;
   margin: 30px auto;
   border-radius: 12px;
   border: 1px solid #ddd;
 }
 
-.screenshot-gallery {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-  margin: 30px 0;
+.feature-block {
+  margin: 50px 0;
+  text-align: center;
 }
 
-.screenshot-gallery img {
-  max-width: 240px;
+.feature-block p {
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.feature-block img {
+  display: block;
+  max-width: 300px;
   width: 100%;
+  height: auto;
+  margin: 16px auto 0;
   border-radius: 12px;
   border: 1px solid #ddd;
 }
@@ -66,7 +72,7 @@ a {
   }
 
   .hero-screenshot,
-  .screenshot-gallery img {
+  .feature-block img {
     border-color: #333;
   }
 }
