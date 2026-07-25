@@ -11,7 +11,7 @@ title: About Runway
 
 Runway answers one question:
 
-> "What does my checking account look like over the next five weeks?"
+> "What does my cash flow look like over the next five weeks?"
 
 Every paycheck, bill, and credit card payment is projected onto a calendar -- so surprises stop being surprises.
 
