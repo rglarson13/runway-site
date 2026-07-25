@@ -81,6 +81,8 @@ Switch between light and dark mode, adjust text size, and turn on a colorblind-f
 
 [Available on Google Play](https://play.google.com/store/apps/details?id=com.bob.cashflow)
 
+Want to help test Runway? [Email me](mailto:RunwayFinanceApp@gmail.com?subject=I%27d%20like%20to%20test%20Runway) and I'll add you to the beta.
+
 ## Learn more
 
 - [Privacy Policy](privacy-policy.md)

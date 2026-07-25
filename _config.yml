@@ -5,6 +5,8 @@ sass:
 
 title: Runway
 description: Cash-flow forecasting without accounts, cloud sync, or bank connections.
+author: Robert Larson
+email: RunwayFinanceApp@gmail.com
 
 header_pages:
   - privacy-policy.md
