@@ -21,6 +21,16 @@ a:hover {
   color: #2a6f4a;
 }
 
+.hero-banner {
+  display: block;
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+  margin: 0 auto 30px;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+}
+
 .hero-screenshot {
   display: block;
   max-width: 320px;
@@ -95,6 +105,7 @@ a:hover {
     color: #fcfcfc;
   }
 
+  .hero-banner,
   .hero-screenshot,
   .feature-block img {
     border-color: #1f4584;

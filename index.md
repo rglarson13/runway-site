@@ -3,6 +3,10 @@ layout: page
 title: About Runway
 ---
 
+<div>
+  <img src="{{ '/assets/images/feature-graphic.png' | relative_url }}" alt="Runway -- an airplane taking off down a dollar-sign runway. Know before payday." class="hero-banner">
+</div>
+
 ## Know your cash flow before it becomes a problem.
 
 Runway answers one question:
