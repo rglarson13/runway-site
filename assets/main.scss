@@ -53,13 +53,18 @@ a:hover {
 
 @media (prefers-color-scheme: dark) {
   body {
-    // Same gradient used behind the Play Store feature graphic, so the
-    // site and the store listing feel like the same brand. #132b52 (the
-    // flat color used elsewhere, e.g. the mobile nav dropdown) sits almost
-    // exactly at the midpoint, so there's no visible seam between them.
-    background-color: #132b52;
-    background-image: linear-gradient(to bottom, #1b3661, #0e2449);
+    // Base color matches the gradient's bottom stop below, so the header's
+    // gradient (right below) has no visible seam where it ends.
+    background-color: #0e2449;
     color: #fcfcfc;
+  }
+
+  .site-header {
+    // Same gradient used behind the Play Store feature graphic, so the site
+    // and the store listing feel like the same brand. Spread over the
+    // header's own (short) height instead of the whole page, so it actually
+    // reads as a banner instead of an imperceptible page-length fade.
+    background-image: linear-gradient(to bottom, #1b3661, #0e2449);
   }
 
   .site-title,
@@ -71,11 +76,15 @@ a:hover {
     color: #66c693;
   }
 
-  // minima gives the nav its own background (light, for the mobile dropdown)
-  // and its own text color for .page-link, both with enough specificity to
-  // beat the overrides above -- so they need to be set explicitly here too.
-  .site-nav {
-    background-color: #132b52;
+  // minima gives the mobile nav dropdown its own opaque background (light,
+  // since it's a popover over page content) with enough specificity to beat
+  // the overrides above, so it needs to be set explicitly too -- but only
+  // for the dropdown itself (max-width: 600px). Left unscoped, this would
+  // also paint over the header's gradient on desktop.
+  @media screen and (max-width: 600px) {
+    .site-nav {
+      background-color: #132b52;
+    }
   }
 
   .site-nav .menu-icon > svg {
