@@ -7,4 +7,4 @@ This repository contains:
 - Privacy policy
 - Support information
 
-See it live here: [git push --set-upstream origin feature/ideas](https://rglarson13.github.io/runway-site/)
+See it live here: [https://rglarson13.github.io/runway-site/](https://rglarson13.github.io/runway-site/)
