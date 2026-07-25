@@ -8,9 +8,16 @@
 // automatically for visitors whose system is set to dark -- there's no
 // manual toggle, this just follows prefers-color-scheme.
 
+// minima styles :visited (and .site-title:visited) links with their own,
+// more specific rules that beat the plain selectors above once a link has
+// been visited -- which is most of them, once you've clicked around the
+// site -- so those need to be listed explicitly too.
 .site-title,
+.site-title:visited,
 .site-nav .page-link,
-a {
+a,
+a:visited,
+a:hover {
   color: #2a6f4a;
 }
 
@@ -56,8 +63,11 @@ a {
   }
 
   .site-title,
+  .site-title:visited,
   .site-nav .page-link,
-  a {
+  a,
+  a:visited,
+  a:hover {
     color: #66c693;
   }
 
