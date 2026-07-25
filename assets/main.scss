@@ -46,7 +46,12 @@ a {
 
 @media (prefers-color-scheme: dark) {
   body {
+    // Same gradient used behind the Play Store feature graphic, so the
+    // site and the store listing feel like the same brand. #132b52 (the
+    // flat color used elsewhere, e.g. the mobile nav dropdown) sits almost
+    // exactly at the midpoint, so there's no visible seam between them.
     background-color: #132b52;
+    background-image: linear-gradient(to bottom, #1b3661, #0e2449);
     color: #fcfcfc;
   }
 
