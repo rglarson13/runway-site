@@ -10,7 +10,7 @@ title: About the Developer
 
 Hi, I'm Bob Larson, a software developer and data nerd from Minnesota.
 
-I built Runway because I wanted a simple way to answer a simple question: **"Am I going to have enough money in the future?"**
+I built Runway because I wanted a simple way to answer a simple question: **"Do I have enough money in my checking account to cover my upcoming bills?"**
 
 I couldn't find a tool I liked that gave me a clear cash-flow forecast without requiring me to connect my bank accounts, create an account, or send my financial data to someone else's servers.
 
