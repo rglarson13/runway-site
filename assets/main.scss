@@ -21,8 +21,13 @@ a:hover {
   color: #2a6f4a;
 }
 
-.site-title {
+.site-title,
+.site-footer strong {
   font-weight: 700;
+}
+
+.site-footer strong {
+  color: #2a6f4a;
 }
 
 .hero-banner {
@@ -113,5 +118,13 @@ a:hover {
   .hero-screenshot,
   .feature-block img {
     border-color: #1f4584;
+  }
+
+  .site-footer {
+    border-top-color: #1f4584;
+  }
+
+  .site-footer strong {
+    color: #66c693;
   }
 }
