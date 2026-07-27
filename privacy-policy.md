@@ -24,7 +24,7 @@ Nothing.
 
 All of your data is kept in a local database on your device. It is deliberately excluded from Android's cloud backup, so it is never copied into your Google account backup. If you delete the app, the data is gone.
 
-Because of this, **the CSV export is your only backup**. Exports are created only when you choose to do so. You can export everything from Settings → Your data at any time. What you do with that file -- save it, share it, import it on another phone -- is entirely your choice and happens through your device's own share and file features, not through any service of ours.
+Because your data never leaves your device automatically, you are responsible for your own backups. Exporting a CSV is the easiest way to do that. **Exports are created only when you choose to do so**. You can export everything from Settings → Your data at any time. What you do with that file -- save it, share it, import it on another phone -- is entirely your choice and happens through your device's own share and file features, not through any service of ours.
 
 ## Reminders
 
