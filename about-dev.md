@@ -8,7 +8,7 @@ title: About the Developer
 </div>
 <br>
 
-Hi, I'm Bob Larson, a software developer and data nerd from Minnesota.
+Hi, I'm Bob Larson, a data nerd and privacy geek from Minnesota.
 
 I built Runway because I wanted a simple way to answer a simple question: **"Do I have enough money in my checking account to cover my upcoming bills?"**
 
