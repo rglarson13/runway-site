@@ -22,9 +22,9 @@ Nothing.
 
 ## Where your data lives
 
-All of your data is kept in a local database on your device. It is deliberately excluded from Android's cloud backup, so it is never copied into your Google account backup. If you delete the app, the data is gone.
+All of your data is kept in a local database on your device. To protect your privacy, Runway does not participate in Android's automatic cloud backup, meaning your financial data is not backed up to your Google account. If you delete the app, the data is gone.
 
-Because your data never leaves your device automatically, you are responsible for your own backups. Exporting a CSV is the easiest way to do that. **Exports are created only when you choose to do so**. You can export everything from Settings → Your data at any time. What you do with that file -- save it, share it, import it on another phone -- is entirely your choice and happens through your device's own share and file features, not through any service of ours.
+Because your data never leaves your device automatically, you in control when it comes to creating and saving backups of your data. **Backups are created only when you choose to do so**. If you choose to save backup data, exporting a CSV is the easiest way to do that. You can export everything from Settings → Your data at any time. What you do with that file -- save it, share it, import it on another phone -- is entirely your choice and happens through your device's own share and file features, not through any service of ours.
 
 ## Reminders
 
