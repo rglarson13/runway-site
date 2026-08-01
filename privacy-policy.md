@@ -3,7 +3,7 @@ layout: page
 title: Privacy Policy
 ---
 
-**Effective date: July 17, 2026**
+**Effective date: July 31, 2026**
 
 Runway is a cash-flow forecasting app. This policy is short because the honest answer to "what do you do with my data?" is: nothing. We never see it.
 
@@ -13,7 +13,7 @@ Your financial data is stored only on your device, is never transmitted to us or
 
 ## What we collect
 
-Nothing.
+Nothing. We have nothing to collect because your financial data never comes to us.
 
 - **No account.** There is no sign-up, no email, no password, and no user ID. We have no way to know who you are.
 - **No servers of ours.** Runway has no backend. Your balances, bills, income, and settings are stored in a local database on your device and nowhere else.
@@ -22,9 +22,22 @@ Nothing.
 
 ## Where your data lives
 
-All of your data is kept in a local database on your device. To protect your privacy, Runway does not participate in Android's automatic cloud backup, meaning your financial data is not backed up to your Google account. If you delete the app, the data is gone.
+All of your data is kept in a local database on your device. It is deliberately excluded from Android's cloud backup, so it is never copied into your Google account backup. If you delete the app, the data is gone.
 
-Because your data never leaves your device automatically, you in control when it comes to creating and saving backups of your data. **Backups are created only when you choose to do so**. If you choose to save backup data, exporting a CSV is the easiest way to do that. You can export everything from Settings → Your data at any time. What you do with that file -- save it, share it, import it on another phone -- is entirely your choice and happens through your device's own share and file features, not through any service of ours.
+Because of this, **the CSV export is your only backup**. Exports are created only when you choose to do so. You can export everything from Settings → Your data at any time. What you do with that file -- save it, share it, import it on another phone -- is entirely your choice and happens through your device's own share and file features, not through any service of ours.
+
+## Snapshot Sharing
+
+Runway lets you optionally share a read-only snapshot of your runway with someone else -- a spouse or household partner, for example. Nothing is shared unless you set it up yourself, in one of two ways:
+
+- **A one-time share.** Tap "Share a snapshot now" and Runway builds a fresh encrypted file and hands it to your phone's own share sheet -- you choose where that one file goes.
+- **An ongoing, automatic share.** Pick a folder once, and choose to have Runway keep a snapshot file there updated automatically -- rewritten every time your data changes, with no further taps, until you turn it off in Settings → Share a snapshot. **If that folder is synced by a cloud service you use (Google Drive, for example), the updated file reaches that service automatically, every time it's rewritten.** Runway itself still doesn't connect to any cloud service to make this work (see below) -- but choosing a cloud-synced folder as your destination means your own cloud provider does, continuously, for as long as this is turned on. Turning it off stops future writes; it doesn't delete a copy already sitting in that folder.
+- **Encrypted before it ever leaves your device**, either way -- using a key exchanged once between your device and the recipient's, via a QR code you scan together. Runway has no way to read the file, and neither can anyone else without that key.
+- **No server, no account, and no cloud service of ours.** Runway does not operate, and does not connect to, any file-sharing or cloud storage service -- for either sharing method, the destination is always somewhere you chose yourself.
+- **What's included:** your current accounts, bills, income, and any What-If scenarios you've saved -- the same information your own runway is built from. There's no selective or redacted option; a shared snapshot includes everything that feeds your own forecast.
+- **Revocable, going forward only.** You can re-pair at any time to stop future shares -- one-time or ongoing -- from being readable with an old key. Because there's no server, Runway can't reach into a device or a cloud folder that already has a copy and make it forget -- anything already shared stays viewable there as a frozen copy from that point on.
+
+This is the kind of feature the "What we will never do" section below promised to disclose before it shipped -- here it is.
 
 ## Reminders
 

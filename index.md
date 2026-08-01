@@ -30,7 +30,7 @@ No analyzing your credit card statement.
 Runway is also privacy-first.
 
 No account required.
-No cloud sync.
+No cloud sync required.
 No collecting your personal information.
 
 Your financial data stays in your hands.
@@ -41,8 +41,11 @@ Your financial data stays in your hands.
 - Know what is safe to spend today
 - Predict upcoming credit card payments
 - Forecast bills, transfers, and paychecks
+- Test a big decision before you make it with what-if scenarios
+- Look back at what actually happened with Cash Flow History
 - Set account safety buffers
 - Home-screen widgets for at-a-glance cash flow
+- Share your runway securely with a spouse or partner
 - Export your data whenever you want
 
 ## See it in action
