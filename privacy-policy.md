@@ -43,9 +43,12 @@ This is the kind of feature the "What we will never do" section below promised t
 
 If you turn on reminders (they are off by default), they are scheduled locally on your device. No notification service, no push servers, and nothing about your bills or balances is sent anywhere to make them work.
 
-## The one network connection the app makes
+## Network connections the app makes
 
-Runway may check for updates to its own application code so that bug fixes can reach you between store releases. This check contacts the update service (operated by Expo, the framework Runway is built on) and involves standard technical request information -- app version, platform, and the like. **Runway does not send any of your financial data as part of these requests.** App installs and updates through Google Play are additionally covered by Google's own policies.
+- **Automatic, on launch:** Runway may check for updates to its own application code so that bug fixes can reach you between store releases. This check contacts the update service (operated by Expo, the framework Runway is built on) and involves standard technical request information -- app version, platform, and the like. **Runway does not send any of your financial data as part of these requests.**
+- **Only when you tap "Unlock Premium" or "Restore purchase" (Settings → Premium):** Runway contacts Google Play Billing to process the purchase or check whether you've already bought it -- the same way any Google Play in-app purchase works. This never happens automatically or in the background; it only happens when you take that specific action, and no financial data of yours is part of it -- only your Google Play purchase record for this app.
+
+App installs and updates through Google Play are additionally covered by Google's own policies.
 
 ## What we will never do
 
