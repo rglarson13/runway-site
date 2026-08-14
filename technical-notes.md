@@ -48,4 +48,4 @@ A representative sample, not the complete list: past one-time bills no longer li
 
 ---
 
-This list isn't exhaustive -- it's real. Every line above corresponds to an actual change, found through either deliberate internal review or regular use, not a category we thought we should mention. If you find something that isn't behaving the way it's described here, [we want to know](get-help.md).
+This list isn't exhaustive -- a lot of work goes into creating an app like this, a million small issues pop up and I believe I've caught most of them. I've worked hard to make Runway the best app I can. Every line above corresponds to an actual change, found through either deliberate internal review or regular use. If you find something that isn't behaving the way it's supposed to, [please let me know](get-help.md).
