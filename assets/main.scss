@@ -29,9 +29,16 @@ a:hover {
 // Small icon inline with the "Runway" site title in the header -- purely
 // decorative (empty alt), same favicon.png already used for the browser
 // tab, just reused here instead of adding a second image asset.
-.site-title-icon {
-  width: 22px;
-  height: 22px;
+// Selector scoped through .site-title (not just the bare class) and given
+// !important on the sizing specifically - belt-and-suspenders against
+// minima's own base stylesheet, which may have a more specific rule
+// targeting images inside the header that would otherwise win the cascade
+// and silently shrink this back down regardless of what's set here. The
+// width/height HTML attributes on the <img> itself (header.html) are the
+// other half of the same defense - a real fallback, not just a CSS fight.
+.site-title .site-title-icon {
+  width: 28px !important;
+  height: 28px !important;
   vertical-align: middle;
   margin-right: 6px;
   margin-top: -2px; // optical centering against the text baseline
