@@ -9,9 +9,9 @@ author: Robert Larson
 email: RunwayFinanceApp@gmail.com
 
 header_pages:
-  - technical-notes.md
   - privacy-policy.md
   - get-help.md
   - request-a-feature.md
-  - support-runway.md
+  - technical-notes.md
   - about-dev.md
+  - support-runway.md
