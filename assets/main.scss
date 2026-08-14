@@ -37,11 +37,10 @@ a:hover {
 // width/height HTML attributes on the <img> itself (header.html) are the
 // other half of the same defense - a real fallback, not just a CSS fight.
 .site-title .site-title-icon {
-  width: 28px !important;
-  height: 28px !important;
+  width: 50px !important;
+  height: 50px !important;
   vertical-align: middle;
-  margin-right: 6px;
-  margin-top: -2px; // optical centering against the text baseline
+  margin-right: 8px;
   border-radius: 50%;
 }
 
