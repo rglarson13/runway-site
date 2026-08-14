@@ -3,7 +3,7 @@ layout: page
 title: Technical Notes
 ---
 
-This page is where I get specific.
+This page is where I will try to provide specific details about updates to the app.
 
 Most apps summarize an update as "bug fixes and performance improvements." I'd rather tell you what actually changed -- especially anything touching your data, your privacy, or the accuracy of the numbers Runway shows you. If something was found and fixed, it's listed here, not smoothed over.
 
