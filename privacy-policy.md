@@ -3,7 +3,7 @@ layout: page
 title: Privacy Policy
 ---
 
-**Effective date: July 31, 2026**
+**Effective date: August 7, 2026**
 
 Runway is a cash-flow forecasting app. This policy is short because the honest answer to "what do you do with my data?" is: nothing. We never see it.
 
@@ -17,7 +17,7 @@ Nothing. We have nothing to collect because your financial data never comes to u
 
 - **No account.** There is no sign-up, no email, no password, and no user ID. We have no way to know who you are.
 - **No servers of ours.** Runway has no backend. Your balances, bills, income, and settings are stored in a local database on your device and nowhere else.
-- **No analytics or tracking.** The app contains no analytics SDKs, no advertising SDKs, no crash reporters that phone home, and no telemetry of any kind.
+- **No analytics or tracking.** The app does not collect or use your data for analytics or advertising, contains no crash reporters that phone home, and does not perform telemetry of any kind. The on-device QR-code scanner you use to pair for Snapshot Sharing is powered by Google's ML Kit, decoding the code entirely on your device -- nothing about the scan is ever sent anywhere. The same camera library also bundles a second, Google-Play-Services-connected scanning mode that Runway's code never calls. Separately, the library we use to schedule your local reminders bundles Firebase Cloud Messaging, Google's push-notification service, which Runway never uses -- reminders are scheduled entirely on-device, and nothing is ever registered with Google for it. Neither the unused scanning mode nor Firebase Messaging is configured with a Google project of ours.
 - **No bank access.** Runway never connects to your bank. Every number in the app is one you typed in yourself.
 
 ## Where your data lives
