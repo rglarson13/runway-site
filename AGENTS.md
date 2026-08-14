@@ -85,13 +85,9 @@ Important pages include:
 - `support-runway.md` - Support development page
 - `request-a-feature.md` - Feature feedback
 - `get-help.md` - User support
+- `technical-notes.md` - Public release notes, chronological by version, starting at 1.0.0 (no pre-release history -- same reasoning as the in-app What's New card: it exists for users who weren't around for the pre-release churn). Rewritten for outside readers from the app repo's internal `CHANGELOG.md`, not a verbatim port -- drop file paths, internal audit-finding IDs, and dev-facing jargon, but keep real specifics (what broke, what it could have affected, what changed). The whole point is being more transparent than "stability improvements," so vague-ing it down defeats the page.
 
-Coming _eventually_:
-
-- `WHATSNEW.md` - User-facing release notes
-- `CHANGELOG.md` - Internal development notes
-
-In any case, Keep user-facing content separate from internal development notes.
+Keep user-facing content separate from internal development notes: `CHANGELOG.md` itself is never published verbatim.
 
 
 ## Feature Accuracy
