@@ -164,11 +164,19 @@ When adding new features or sections:
 - Prefer fewer, clearer pages over many small pages.
 
 
-## Help Test link should expire
+## Help Test link -- resolved, reworded not removed (2026-08-18)
 
-Right now, the app is in beta, but when that changes, we need to stop adding people to the beta test.
-
-The "Want to help test Runway? Email me and I'll add you to the beta." link should be removed as soon as the site migrates to a public release.
+Runway went public on the Play Store this date. This section originally
+planned to remove the "Want to help test Runway? Email me and I'll add
+you to the beta." link outright once that happened -- reconsidered: the
+closed testing tracks (alpha/beta/Testers Community) are an ongoing
+thing, not something that stopped mattering at public launch, since new
+features still get tested there before a public release. Reworded
+instead of deleted: `index.md` now reads "Want to help test future
+features of Runway before they're released? Email me... and I'll add you
+to the testing group." -- no more "beta" (the app itself no longer is
+one), framed as an ongoing invitation rather than a one-time pre-launch
+ask.
 
 
 ## A real person made this
