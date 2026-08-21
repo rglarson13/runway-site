@@ -8,10 +8,14 @@ description: Cash-flow forecasting without accounts, cloud sync, or bank connect
 author: Robert Larson
 email: RunwayFinanceApp@gmail.com
 
+# The nav is a shortlist, not an index. Six items wrapped awkwardly on
+# desktop and buried the two that matter most; these four are what a
+# visitor actually arrives needing -- help, the privacy promise, the
+# person behind it, and the ask. Request a Feature and Technical Notes
+# are still published at the same URLs and still linked from the
+# "Learn more" list on the landing page.
 header_pages:
-  - privacy-policy.md
   - get-help.md
-  - request-a-feature.md
-  - technical-notes.md
+  - privacy-policy.md
   - about-dev.md
   - support-runway.md

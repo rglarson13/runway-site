@@ -89,6 +89,8 @@ Want to help test future features of Runway before they're released? [Email me](
 ## Learn more
 
 - [Privacy Policy](privacy-policy.md)
-- [Request a Feature](request-a-feature.md)
 - [Get Help](get-help.md)
+- [Request a Feature](request-a-feature.md)
+- [Technical Notes](technical-notes.md) -- what changed in each release
+- [About the Developer](about-dev.md)
 - [Support Runway](support-runway.md)
