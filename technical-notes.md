@@ -11,6 +11,59 @@ This isn't a feature tour -- see [the main page](index.md) for what Runway does.
 
 ---
 
+## 1.0.2 -- September 12, 2026
+
+This release grew out of something I ran into myself: a bill's due date passed before it actually cleared my bank, and Runway had already quietly stopped counting it against my balance -- which briefly made my available cash look higher than it really was. Here's what changed to fix that, and what else came with it.
+
+### New: bills that don't clear on time stay visible
+
+- If a bill, paycheck, or credit card payment's due date passes and you haven't told Runway it was paid or skipped, it now keeps counting against your projected balance instead of quietly assuming it happened. By default it stays held for a few days (configurable in Settings -> Reminders), or you can tell Runway "Still waiting" to hold it indefinitely, or "Dismiss" if you already know it's fine. You can flag "Still waiting" right on the due date itself, before it's even technically overdue -- useful if you're checking that day and it hasn't cleared yet. Dismissing something by mistake is no longer permanent -- Cash Flow History can bring it back. Credit card payments are covered the same way: the first time a payment is found overdue, its estimated amount is locked in so it doesn't keep changing on you, whether the card pays a fixed amount or the full balance each cycle.
+- The bills-due reminder now also covers paychecks, and lets you confirm a bill or paycheck right from the reminder itself, the day it's due.
+
+### Data safety
+
+- A full backup now also carries whether you've flagged a bill "still waiting" or dismissed it, and your hold-length setting.
+- Restoring a backup now checks the actual values of your saved settings, not just that they're present -- closing two ways a hand-edited or spreadsheet-damaged backup file could previously cause real problems (see below).
+
+### Also fixed
+
+- A corrupted safety-buffer value (most likely from hand-editing or a spreadsheet reformatting a backup file) could make "Safe to spend today" show "$NaN" and silence the below-buffer warning entirely, even for an account that had genuinely dropped below its buffer. Runway now falls back to the default buffer instead of trusting a damaged value.
+- A corrupted reminder frequency in an imported backup could hang the app permanently on launch, since reminders rebuild every time the app starts. Damaged values now fall back to their normal setting.
+
+---
+
+## 1.0.1 -- September 5, 2026
+
+The same internal review process that caught issues before 1.0.0 shipped ran again for this release. Here's what's new, and what it found and fixed.
+
+### New: plan around a one-time change
+
+- You can now adjust a single upcoming bill, paycheck, or payment for just that one occurrence -- tap "Adjust…" on the Dashboard or Runway tab. Useful for the one-off: a smaller card payment after an unexpected expense, extra principal on a loan, a signing bonus on one paycheck, a service credit lowering a bill for a month. The recurring amount for every future cycle is untouched -- it resumes automatically the next time around. It also shows up consistently in a What-If scenario, the same way a real paid or skipped bill already does.
+- After you confirm a credit card payment or a variable bill (electric, water) as paid, Runway now offers a shortcut to update the number it leaves behind -- the card's new balance, or the bill's amount for next time -- right from that same screen. Runway never changes a balance on its own; this just saves you a trip to go do it yourself.
+
+### Money accuracy
+
+- Fixed a twice-a-month credit card payment being counted twice once you'd already made it. If you marked the first payment paid and then updated the card's balance to reflect that, the app subtracted that same payment again when working out the second one -- which could turn the second payment negative and make your projected balance jump *up* on the day you paid a card. Everything downstream of that payment was wrong for the rest of the forecast.
+- Fixed a credit card sitting at a negative balance (say, a refund that landed after you'd already paid the bill) showing up as money coming back into your checking account. The credit still reduces what you owe -- it just no longer looks like income.
+- Fixed an already-paid bill or payment silently rewriting its own history. If you updated a card's balance or a bill's amount after marking it paid -- exactly what Runway now invites you to do, above -- the record of what you'd already paid would quietly change to match, instead of staying frozen at what it actually was when you paid it. This showed up on the calendar, the Runway tab, and the home-screen widgets alike; all of them now correctly freeze the figure the moment it's settled.
+- Fixed a gap in CSV backup validation: a single corrupted or blank date in an imported file (most likely from opening the export in a spreadsheet and re-saving it) could silently empty your Cash Flow History for every month, with no error or warning that anything had gone wrong. Nothing was ever actually lost -- the underlying data round-tripped correctly the whole time -- but the display broke silently. That kind of row is now rejected at import time with a clear error instead.
+
+### Getting your data in and out
+
+- CSV import (both a full backup and the starter template) now offers a real "Choose file…" option on the installed app, not just pasting the file's contents in by hand.
+- Restoring a backup on a new phone already carried your theme, text size, currency, and reminder preferences across -- but they didn't actually take effect until you fully closed and reopened the app. They now apply immediately once the restore finishes.
+
+### Accessibility and readability
+
+- Fixed several places where a larger combined text size (the phone's own accessibility setting plus Runway's own) could crowd content together or clip it: action links running off the edge of the screen in Cash Flow History and on a shared snapshot, button text clipping on the snapshot-import screen and several others, and the Dashboard/Runway calendar's day number, dots, and balance figure overlapping each other on both the in-app calendar and the home-screen widget. The calendar now drops the balance figure at the largest text size to give the date and markers the room they need -- it's still one tap away in that day's own detail view -- and says so on-screen rather than just disappearing silently.
+- Columns of dollar figures (account lists, day-by-day balances, Cash Flow History, both account screens) now line their digits up vertically instead of drifting slightly from row to row.
+
+### Also fixed
+
+A representative sample: the amount box shown when marking something paid now rounds to a whole dollar figure instead of occasionally showing something like "$3205.33..."; that same box is bigger and easier to read at larger text sizes; the home-screen List widget now shows what you actually paid when it differs from what was expected, matching the calendar and Runway tab; and a one-time planned adjustment now correctly shows its "(adjusted)" label everywhere it should, including a What-If scenario's results and a shared snapshot.
+
+---
+
 ## 1.0.0 -- August 13, 2026
 
 Runway's first public release. Before it went out, every screen, every calculation, and every permission the app requests went through a deliberate internal review -- not just manual testing, but a structured audit built specifically to catch the kind of thing that's easy to miss (a number that's right on one screen and wrong on another, a permission a library asked for that the app never actually uses). Here's what that process, along with regular testing, actually found and fixed before this version shipped.
