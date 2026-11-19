@@ -12,6 +12,6 @@ When reporting a bug, please include:
 
 - Device model
 - Android version
-- Runway version
+- Runway version, build number and commit (all on Settings -> Help & About -> About)
 - What you expected to happen
 - What actually happened

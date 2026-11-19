@@ -3,7 +3,7 @@ layout: page
 title: Privacy Policy
 ---
 
-**Effective date: August 7, 2026**
+**Effective date: November 19, 2026**
 
 Runway is a cash-flow forecasting app. This policy is short because the honest answer to "what do you do with my data?" is: nothing. We never see it.
 
@@ -17,12 +17,13 @@ Nothing. We have nothing to collect because your financial data never comes to u
 
 - **No account.** There is no sign-up, no email, no password, and no user ID. We have no way to know who you are.
 - **No servers of ours.** Runway has no backend. Your balances, bills, income, and settings are stored in a local database on your device and nowhere else.
-- **No analytics or tracking.** The app does not collect or use your data for analytics or advertising, contains no crash reporters that phone home, and does not perform telemetry of any kind. The on-device QR-code scanner you use to pair for Snapshot Sharing is powered by Google's ML Kit, decoding the code entirely on your device -- nothing about the scan is ever sent anywhere. The same camera library also bundles a second, Google-Play-Services-connected scanning mode that Runway's code never calls. Separately, the library we use to schedule your local reminders bundles Firebase Cloud Messaging, Google's push-notification service, which Runway never uses -- reminders are scheduled entirely on-device, and nothing is ever registered with Google for it. Neither the unused scanning mode nor Firebase Messaging is configured with a Google project of ours.
+- **No analytics or tracking of ours.** Runway's own code collects nothing for analytics or advertising and contains no crash reporters that phone home. One component we use does send usage data to Google -- see the next point.
+- **The pairing QR scanner (Google ML Kit).** The QR-code scanner you use to pair for Snapshot Sharing is powered by Google's ML Kit, which decodes the code entirely on your device: the camera image and the code's contents are never sent anywhere. ML Kit itself may, however, send Google diagnostic and usage information about the scanner -- your device's make, model and OS version, Runway's package name and version, a random per-installation identifier, performance figures such as how long a scan took, and the scanner's settings, input sizes and error codes -- encrypted in transit. Google says it uses this for diagnostics and usage analytics and does not pass it to third parties. None of it includes your financial data. If you never scan a pairing code, the scanner is never started. The same camera library also bundles a second, Google-Play-Services-connected scanning mode that Runway's code never calls. Separately, the library we use to schedule your local reminders bundles Firebase Cloud Messaging, Google's push-notification service, which Runway never uses -- reminders are scheduled entirely on-device, and nothing is ever registered with Google for it. Neither the unused scanning mode nor Firebase Messaging is configured with a Google project of ours.
 - **No bank access.** Runway never connects to your bank. Every number in the app is one you typed in yourself.
 
 ## Where your data lives
 
-All of your data is kept in a local database on your device. It is deliberately excluded from Android's cloud backup, so it is never copied into your Google account backup. If you delete the app, the data is gone.
+All of your data is kept on your device. Everything Runway stores -- the database and the app's own small settings files, including the text of any reminders waiting to be shown -- is deliberately excluded from both Android's cloud backup and its phone-to-phone transfer, so none of it is copied into your Google account backup or carried to a new phone automatically. If you delete the app, the data is gone.
 
 Because of this, **the CSV export is your only backup**. Exports are created only when you choose to do so. You can export everything from Settings → Your data at any time. What you do with that file -- save it, share it, import it on another phone -- is entirely your choice and happens through your device's own share and file features, not through any service of ours.
 
@@ -45,7 +46,7 @@ If you turn on reminders (they are off by default), they are scheduled locally o
 
 ## Network connections the app makes
 
-- **Automatic, on launch:** Runway may check for updates to its own application code so that bug fixes can reach you between store releases. This check contacts the update service (operated by Expo, the framework Runway is built on) and involves standard technical request information -- app version, platform, and the like. **Runway does not send any of your financial data as part of these requests.**
+- **Automatic, on launch:** Runway may check for updates to its own application code so that bug fixes can reach you between store releases. This check contacts the update service (operated by Expo, the framework Runway is built on) and involves standard technical request information -- app version, platform, and the like -- plus a random identifier created once when Runway is installed, which lets Expo tell repeat checks from the same installation apart (it is not tied to you, your Google account, or your device's hardware). If an update ever fails to start, the next check also sends a short technical description of that error. **Runway does not send any of your financial data as part of these requests.**
 - **Only when you tap "Unlock Premium" or "Restore purchase" (Settings → Premium):** Runway contacts Google Play Billing to process the purchase or check whether you've already bought it -- the same way any Google Play in-app purchase works. This never happens automatically or in the background; it only happens when you take that specific action, and no financial data of yours is part of it -- only your Google Play purchase record for this app.
 
 App installs and updates through Google Play are additionally covered by Google's own policies.
