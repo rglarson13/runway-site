@@ -41,11 +41,11 @@ Your financial data stays in your hands.
 - Know what is safe to spend today
 - Predict upcoming credit card payments
 - Forecast bills, transfers, and paychecks
-- Test a big decision before you make it with what-if scenarios
+- Test a big decision before you make it with what-if scenarios (Premium)
 - Look back at what actually happened with Cash Flow History
 - Set account safety buffers
 - Home-screen widgets for at-a-glance cash flow
-- Share your runway securely with a spouse or partner
+- Share your runway securely with a spouse or partner (Premium to send, free to receive)
 - Export your data whenever you want
 
 ## See it in action
@@ -64,9 +64,9 @@ Prefer a list to a calendar? Switch to the Runway view to see every projected ba
 
 ### Your balance, without opening the app
 
-A home-screen widget shows what's safe to spend today at a glance.
+Home-screen widgets show your projected status and the days ahead, as a calendar or a list.
 
-<img src="{{ '/assets/images/screenshots/ss4.png' | relative_url }}" alt="Android home screen with a Runway widget showing today's safe-to-spend amount">
+<img src="{{ '/assets/images/screenshots/ss4.png' | relative_url }}" alt="Android home screen with Runway widgets showing the runway calendar and a daily list of projected balances">
 
 </div>
 

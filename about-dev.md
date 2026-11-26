@@ -16,7 +16,7 @@ I couldn't find a tool I liked that gave me a clear cash-flow forecast without r
 
 So I built one.
 
-Runway keeps your data on your device. No accounts, no cloud sync required, no tracking -- just a simple tool to help you understand your own finances.
+Runway keeps your data on your device. No accounts, no cloud sync required, no tracking of ours -- just a simple tool to help you understand your own finances.
 
 If you have ideas, questions, or find a bug, I'd love to hear from you!
 

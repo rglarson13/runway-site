@@ -3,13 +3,13 @@ layout: page
 title: Privacy Policy
 ---
 
-**Effective date: November 19, 2026**
+**Effective date: November 25, 2026**
 
 Runway is a cash-flow forecasting app. This policy is short because the honest answer to "what do you do with my data?" is: nothing. We never see it.
 
 ## The one-sentence version
 
-Your financial data is stored only on your device, is never transmitted to us or anyone else, and the only way it ever leaves your phone is if you export it yourself.
+Your financial data is stored only on your device and is never transmitted to us. It leaves your phone only when you export it or set up a snapshot share yourself.
 
 ## What we collect
 
@@ -35,7 +35,7 @@ Runway lets you optionally share a read-only snapshot of your runway with someon
 - **An ongoing, automatic share.** Pick a folder once, and choose to have Runway keep a snapshot file there updated automatically -- rewritten every time your data changes, with no further taps, until you turn it off in Settings → Share a snapshot. **If that folder is synced by a cloud service you use (Google Drive, for example), the updated file reaches that service automatically, every time it's rewritten.** Runway itself still doesn't connect to any cloud service to make this work (see below) -- but choosing a cloud-synced folder as your destination means your own cloud provider does, continuously, for as long as this is turned on. Turning it off stops future writes; it doesn't delete a copy already sitting in that folder.
 - **Encrypted before it ever leaves your device**, either way -- using a key exchanged once between your device and the recipient's, via a QR code you scan together. Runway has no way to read the file, and neither can anyone else without that key.
 - **No server, no account, and no cloud service of ours.** Runway does not operate, and does not connect to, any file-sharing or cloud storage service -- for either sharing method, the destination is always somewhere you chose yourself.
-- **What's included:** your current accounts, bills, income, and any What-If scenarios you've saved -- the same information your own runway is built from. There's no selective or redacted option; a shared snapshot includes everything that feeds your own forecast.
+- **What's included:** your current accounts, bills, income, and any What-If scenarios you've saved; your record of what's been marked paid or skipped, with the dates and amounts recorded (everything behind Cash Flow History, going back to when you started); and your safety buffer, currency symbol and overdue-hold setting. There's no selective or redacted option; a shared snapshot includes everything that feeds your own forecast.
 - **Revocable, going forward only.** You can re-pair at any time to stop future shares -- one-time or ongoing -- from being readable with an old key. Because there's no server, Runway can't reach into a device or a cloud folder that already has a copy and make it forget -- anything already shared stays viewable there as a frozen copy from that point on.
 
 This is the kind of feature the "What we will never do" section below promised to disclose before it shipped -- here it is.
@@ -54,7 +54,7 @@ App installs and updates through Google Play are additionally covered by Google'
 
 ## What we will never do
 
-- We will never upload, sync, back up, or otherwise copy your financial data off your device.
+- We will never upload, sync, back up, or otherwise copy your financial data off your device on our own. It leaves only through an export or a snapshot share that you set up.
 - We will never sell or share data we do not have.
 - If a future feature ever needs to move any of your data anywhere (for example, an optional bank-sync integration), it will be strictly opt-in, clearly explained before anything happens, and this policy will be updated first.
 

@@ -3,7 +3,7 @@ layout: page
 title: Support Runway
 ---
 
-Runway is built independently, without ads, tracking, or selling your financial data.
+Runway is built independently, without ads, without tracking of its own, and without selling your financial data.
 
 If Runway has helped avoid an unwelcome surprise, helps you sleep a little better, or simply makes you feel more confident about your cash flow, consider supporting continued development. Your support helps fund future improvements, bug fixes, and new features.
 
